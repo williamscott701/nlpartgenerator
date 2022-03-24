@@ -1,0 +1,12 @@
+SECRET_KEY: 'mybiblequiz.com_beta'
+
+EMAIL:
+  address: {{ email_address }}
+  password: {{ email_password }}
+
+MONGODB_SETTINGS:
+  db_link: mongodb://angelai:Ascii123@cluster0-shard-00-00.xgxfz.mongodb.net:27017,cluster0-shard-00-01.xgxfz.mongodb.net:27017,cluster0-shard-00-02.xgxfz.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-10chh9-shard-0&authSource=admin&retryWrites=true&w=majority
+  # db_link: mongodb://localhost:27017/
+
+MODEL:
+  iteration: 1
