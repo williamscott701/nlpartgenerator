@@ -1,0 +1,12 @@
+SECRET_KEY: 'replace-with-a-random-secret-key'
+
+EMAIL:
+  address: {{ email_address }}
+  password: {{ email_password }}
+
+MONGODB_SETTINGS:
+  db_link: mongodb://<username>:<password>@<cluster-host>:27017/<database>?ssl=true&retryWrites=true&w=majority
+  # db_link: mongodb://localhost:27017/
+
+MODEL:
+  iteration: 1
